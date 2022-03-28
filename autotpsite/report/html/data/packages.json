@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.测开3期_case001_test",
+    "children" : [ {
+      "name" : "case004",
+      "uid" : "beaec11fdc9a8080",
+      "parentUid" : "8afd60e7d60d11b63c16ea4bcddd44ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636637004243,
+        "stop" : 1636637008363,
+        "duration" : 4120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.测开3期_case001_test"
+  } ]
+}

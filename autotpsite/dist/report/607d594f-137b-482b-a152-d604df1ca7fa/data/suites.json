@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "T123123_测试3_test",
+      "children" : [ {
+        "name" : "TestCaseT123123测试3",
+        "children" : [ {
+          "name" : "66666",
+          "uid" : "8e39a41988db183",
+          "parentUid" : "0724960d03caff82ab5cb73a017c47bd",
+          "status" : "broken",
+          "time" : {
+            "start" : 1636806628811,
+            "stop" : 1636806628817,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0724960d03caff82ab5cb73a017c47bd"
+      } ],
+      "uid" : "95a1d7d2089292f66a4fe450d827d38c"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

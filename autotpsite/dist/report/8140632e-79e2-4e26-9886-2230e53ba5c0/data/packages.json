@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "测开3期_用例4_test",
+      "children" : [ {
+        "name" : "用例4",
+        "uid" : "7db1aa92997f7308",
+        "parentUid" : "49a706e7f615ac84f4a100069a8bac93",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636806376978,
+          "stop" : 1636806377001,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49a706e7f615ac84f4a100069a8bac93"
+    }, {
+      "name" : "测开3期_case001_test",
+      "children" : [ {
+        "name" : "case004",
+        "uid" : "c6330b682ed62f47",
+        "parentUid" : "8afd60e7d60d11b63c16ea4bcddd44ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636806377032,
+          "stop" : 1636806381059,
+          "duration" : 4027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8afd60e7d60d11b63c16ea4bcddd44ce"
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}

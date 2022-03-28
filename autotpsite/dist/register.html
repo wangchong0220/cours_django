@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+* CoreUI - Free Bootstrap Admin Template
+* @version v3.4.0
+* @link https://coreui.io
+* Copyright (c) 2020 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://coreui.io/license)
+-->
+
+<html lang="en">
+  <head>
+    <base href="./">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+    <title>CoreUI Free Bootstrap Admin Template</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+      body{
+          background-image: url("images/index.jpg");
+          background-size: cover;
+          background-repeat:no-repeat;
+      }
+    </style>
+    <!-- Main styles for this application-->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics-->
+  </head>
+  <body class="c-app flex-row align-items-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card mx-4">
+            <div class="card-body p-4">
+              <h1>注册</h1>
+              <div id="warning_tips" class="alert alert-warning" role="alert" style="display: none">警告信息</div>
+              <div id="error_tips" class="alert alert-danger" role="alert" style="display: none">错误信息</div>
+              <p class="text-muted">请填写账户信息</p>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend"><span class="input-group-text">
+                    <svg class="c-icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user"></use>
+                    </svg></span></div>
+                <input name="username" class="form-control" type="text" placeholder="用户名">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend"><span class="input-group-text">
+                    <svg class="c-icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
+                    </svg></span></div>
+                <input name="email" class="form-control" type="email" placeholder="邮箱">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend"><span class="input-group-text">
+                    <svg class="c-icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-lock-locked"></use>
+                    </svg></span></div>
+                <input name="password" class="form-control" type="password" placeholder="密码6位以上字符">
+              </div>
+              <div class="input-group mb-4">
+                <div class="input-group-prepend"><span class="input-group-text">
+                    <svg class="c-icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-lock-locked"></use>
+                    </svg></span></div>
+                <input name="confirm_psw" class="form-control" type="password" placeholder="确认密码">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend"><span class="input-group-text">
+                    <svg class="c-icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-tag"></use>
+                    </svg></span></div>
+                <input name="phone" class="form-control" type="text" placeholder="手机号">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend"><span class="input-group-text">
+                    <svg class="c-icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-tag"></use>
+                    </svg></span></div>
+                <input name="realname" class="form-control" type="text" placeholder="真实姓名">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend"><span class="input-group-text">
+                    <svg class="c-icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user-plus"></use>
+                    </svg></span></div>
+                <input name="admin_code" class="form-control" type="text" placeholder="管理员邀请码">
+
+              </div>
+
+
+              <button class="btn btn-block btn-success" type="submit">点击创建账户</button>
+            </div>
+            <div class="card-footer p-sm-2">
+              <a href="login.html" class="btn btn-success px-4" type="button">返回登录页面</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CoreUI and necessary plugins-->
+    <script src="vendors/@coreui/coreui/js/coreui.bundle.min.js"></script>
+    <!--[if IE]><!-->
+    <script src="vendors/@coreui/icons/js/svgxuse.min.js"></script>
+    <!--<![endif]-->
+    <script src="scripts/libs/jquery.min.js"></script>
+    <script src="scripts/common.js"></script>
+    <script src="scripts/auth.js"></script>
+
+    <script>
+      $(document).ready(
+        $('button[type="submit"]').click(function () {
+          register();
+        }),
+      )
+    </script>
+  </body>
+</html>

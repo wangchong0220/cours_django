@@ -1,0 +1,60 @@
+
+config:
+    name: testcase description
+    variables: {}
+    verify: false
+teststeps:
+-   name: /api/mgr/sq_mgr/
+    request:
+        cookies:
+            Pycharm-1d24832e: 6b858831-640e-44d6-85df-e006caf22c4a
+            Pycharm-d264d2b1: cbb5d756-f9fe-489f-abf6-462ccbba8b0a
+            _ga: GA1.1.609454988.1613223854
+            aliyungf_tc: 168d50805c08cbcaa91cf9be301b6262e02471797005602548627232f39ad3c3
+            csrftoken: SaPBg00q7tZfvX28qB7ElmZ2rTD2iqCOW3qnIyzDNzr5lICpo0dxt0rqJBGgIdEz
+            io: Z-BfiTB6ZTivVucfAAAF
+            isLogin: 'true'
+            sessionid: xn30huudw9i7u6zwpf29itlw8ehoe7od
+        headers:
+            Accept: application/json, text/plain, */*
+            Accept-Encoding: gzip, deflate, br
+            Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6
+            Cache-Control: no-cache
+            Connection: keep-alive
+            Cookie: _ga=GA1.1.609454988.1613223854; csrftoken=SaPBg00q7tZfvX28qB7ElmZ2rTD2iqCOW3qnIyzDNzr5lICpo0dxt0rqJBGgIdEz;
+                Pycharm-d264d2b1=cbb5d756-f9fe-489f-abf6-462ccbba8b0a; Pycharm-1d24832e=6b858831-640e-44d6-85df-e006caf22c4a;
+                isLogin=true; io=Z-BfiTB6ZTivVucfAAAF; aliyungf_tc=168d50805c08cbcaa91cf9be301b6262e02471797005602548627232f39ad3c3;
+                sessionid=xn30huudw9i7u6zwpf29itlw8ehoe7od
+            DNT: '1'
+            Host: localhost
+            Pragma: no-cache
+            Referer: http://localhost/mgr/ps/mgr/index.html
+            Sec-Fetch-Dest: empty
+            Sec-Fetch-Mode: cors
+            Sec-Fetch-Site: same-origin
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+            X-CSRFToken: SaPBg00q7tZfvX28qB7ElmZ2rTD2iqCOW3qnIyzDNzr5lICpo0dxt0rqJBGgIdEz
+            sec-ch-ua: '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"'
+            sec-ch-ua-mobile: ?0
+            sec-ch-ua-platform: '"Windows"'
+        method: GET
+        params:
+            action: list_course
+            pagenum: '1'
+            pagesize: '20'
+        url: http://localhost/api/mgr/sq_mgr/
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - application/json
+    -   eq:
+        - body.retcode
+        - 0
+    -   eq:
+        - body.total
+        - 2
+

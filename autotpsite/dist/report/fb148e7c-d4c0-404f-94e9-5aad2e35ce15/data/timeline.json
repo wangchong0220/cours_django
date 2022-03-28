@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-2JDKMUS8",
+    "children" : [ {
+      "name" : "18516-Thread-1",
+      "children" : [ {
+        "name" : "用例4",
+        "uid" : "63f3adf1ec146602",
+        "parentUid" : "9796984d3f6cfe474d1c701780586c39",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636806666436,
+          "stop" : 1636806666441,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9796984d3f6cfe474d1c701780586c39"
+    } ],
+    "uid" : "1f315dd4e4d7ea42adf425de3a0cd0f4"
+  } ]
+}

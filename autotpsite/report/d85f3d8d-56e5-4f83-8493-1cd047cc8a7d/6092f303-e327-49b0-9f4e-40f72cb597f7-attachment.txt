@@ -1,0 +1,25 @@
+[32m2021-11-13 20:33:24.677[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m450[0m - [1mStart to run testcase: PlanCase2, TestCase ID: f38bd6c6-2b44-468e-bf60-43b3d49955fe[0m
+[32m2021-11-13 20:33:24.678[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: step_name >>>>>>[0m
+[32m2021-11-13 20:33:28.686[0m | [33m[1mWARNING [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m188[0m - [33m[1mfailed to get client address info: 'NoneType' object has no attribute 'connection'[0m
+[32m2021-11-13 20:33:28.686[0m | [33m[1mWARNING [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m196[0m - [33m[1mfailed to get server address info: 'NoneType' object has no attribute 'connection'[0m
+[32m2021-11-13 20:33:28.687[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== request details ==================
+method   : GET
+url      : http://localhost/demo/path
+headers  : {}
+cookies  : {}
+body     : None
+[0m
+[32m2021-11-13 20:33:28.692[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== response details ==================
+status_code : 0
+headers  : {}
+cookies  : {}
+encoding : None
+content_type : 
+body     : 
+[0m
+[32m2021-11-13 20:33:28.692[0m | [31m[1mERROR   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m215[0m - [31m[1mHTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /demo/path (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002ECD5431520>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))[0m
+[32m2021-11-13 20:33:28.692[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m304[0m - [1mrun step end: step_name <<<<<<
+[0m
+[32m2021-11-13 20:33:28.692[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m460[0m - [1mgenerate testcase log: D:\Course\course_django\autotpsite\logs\f38bd6c6-2b44-468e-bf60-43b3d49955fe.run.log[0m

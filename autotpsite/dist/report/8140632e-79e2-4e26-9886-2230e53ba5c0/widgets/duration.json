@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c6330b682ed62f47",
+  "name" : "case004",
+  "time" : {
+    "start" : 1636806377032,
+    "stop" : 1636806381059,
+    "duration" : 4027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7db1aa92997f7308",
+  "name" : "用例4",
+  "time" : {
+    "start" : 1636806376978,
+    "stop" : 1636806377001,
+    "duration" : 23
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

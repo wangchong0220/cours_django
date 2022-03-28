@@ -1,0 +1,22 @@
+{
+  "79c6dcc2a56b4ff42447921142267cf9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63f3adf1ec146602",
+      "status" : "broken",
+      "statusDetails" : "httprunner.exceptions.ParamsError: base url missed!",
+      "time" : {
+        "start" : 1636806666436,
+        "stop" : 1636806666441,
+        "duration" : 5
+      }
+    } ]
+  }
+}

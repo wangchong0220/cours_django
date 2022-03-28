@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-2JDKMUS8",
+    "children" : [ {
+      "name" : "14368-Thread-1",
+      "children" : [ {
+        "name" : "case004",
+        "uid" : "c6330b682ed62f47",
+        "parentUid" : "ac3bf6a37da3728a621cdbd2ac05cb67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636806377032,
+          "stop" : 1636806381059,
+          "duration" : 4027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例4",
+        "uid" : "7db1aa92997f7308",
+        "parentUid" : "ac3bf6a37da3728a621cdbd2ac05cb67",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636806376978,
+          "stop" : 1636806377001,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac3bf6a37da3728a621cdbd2ac05cb67"
+    } ],
+    "uid" : "1f315dd4e4d7ea42adf425de3a0cd0f4"
+  } ]
+}

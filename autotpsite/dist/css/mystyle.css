@@ -1,0 +1,34 @@
+.card-header button,
+.card-footer button{
+    float: right;
+    margin-right: 20px;
+}
+
+
+ /*----标题跑马灯start----*/
+ .c-header-nav.d-md-down-none{
+     overflow: hidden;
+ }
+.c-header-nav.d-md-down-none a{
+    white-space:nowrap;
+    animation: slidein 15s linear 0s infinite running;/* 5s决定跑马灯一次滚动的时长，自己调整 */
+}
+@keyframes slidein {
+    from {
+        transform: translateX(500px); /* 盒子宽度 */
+    }
+    to {
+        transform: translateX(-100px);/* 平移距离 = 文案标签长度 + 盒子宽度 */
+    }
+}
+/*----标题跑马灯end----*/
+
+
+
+/*自动隐藏效果*/
+.auto-ellipsis{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 60px;
+}

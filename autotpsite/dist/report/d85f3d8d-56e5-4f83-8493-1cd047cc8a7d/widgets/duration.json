@@ -1,0 +1,11 @@
+[ {
+  "uid" : "26c0f658bd9418e4",
+  "name" : "PlanCase2",
+  "time" : {
+    "start" : 1636806804675,
+    "stop" : 1636806808694,
+    "duration" : 4019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

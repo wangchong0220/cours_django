@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "测开3期_用例4_test",
+      "children" : [ {
+        "name" : "TestCase测开3期用例4",
+        "children" : [ {
+          "name" : "用例4",
+          "uid" : "63f3adf1ec146602",
+          "parentUid" : "e2d7ad3de6b750a3e2264d60ca087ace",
+          "status" : "broken",
+          "time" : {
+            "start" : 1636806666436,
+            "stop" : 1636806666441,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e2d7ad3de6b750a3e2264d60ca087ace"
+      } ],
+      "uid" : "46707ef4723c0f27ef44249396d83e95"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

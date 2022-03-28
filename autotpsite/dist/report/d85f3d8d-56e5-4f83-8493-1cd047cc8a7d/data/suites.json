@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "测开3期_PlanCase2_test",
+      "children" : [ {
+        "name" : "TestCase测开3期Plancase2",
+        "children" : [ {
+          "name" : "PlanCase2",
+          "uid" : "26c0f658bd9418e4",
+          "parentUid" : "949dacec2389f04671ef4814fcb9072f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636806804675,
+            "stop" : 1636806808694,
+            "duration" : 4019
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "949dacec2389f04671ef4814fcb9072f"
+      } ],
+      "uid" : "c069f7c939c852becf7b99a62888f0a8"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

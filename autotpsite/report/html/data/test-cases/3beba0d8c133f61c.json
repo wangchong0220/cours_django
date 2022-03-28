@@ -1,0 +1,88 @@
+{
+  "uid" : "3beba0d8c133f61c",
+  "name" : "case004",
+  "fullName" : "testcase.测开3期_case001_test.TestCase测开3期Case001#test_start",
+  "historyId" : "de01b09b3869633fbd1655e6b0c647c3",
+  "time" : {
+    "start" : 1636534473137,
+    "stop" : 1636534477255,
+    "duration" : 4118
+  },
+  "description" : "TestCase ID: d01fc0fc-0d37-49a3-8434-dc6a2bc15ff2",
+  "descriptionHtml" : "<p>TestCase ID: d01fc0fc-0d37-49a3-8434-dc6a2bc15ff2</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: d01fc0fc-0d37-49a3-8434-dc6a2bc15ff2",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: step_name",
+      "time" : {
+        "start" : 1636534473156,
+        "stop" : 1636534477254,
+        "duration" : 4098
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e9f0b7b0aa08af7b",
+      "name" : "stderr",
+      "source" : "e9f0b7b0aa08af7b.txt",
+      "type" : "text/plain",
+      "size" : 20321
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "测开3期_case001_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase测开3期Case001"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2JDKMUS8"
+  }, {
+    "name" : "thread",
+    "value" : "20516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.测开3期_case001_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3beba0d8c133f61c.json",
+  "parameterValues" : [ ]
+}

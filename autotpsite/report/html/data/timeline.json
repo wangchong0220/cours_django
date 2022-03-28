@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-2JDKMUS8",
+    "children" : [ {
+      "name" : "20516-MainThread",
+      "children" : [ {
+        "name" : "case004",
+        "uid" : "3beba0d8c133f61c",
+        "parentUid" : "0528b4787076f0f959d42af1047cd4e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636534473137,
+          "stop" : 1636534477255,
+          "duration" : 4118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0528b4787076f0f959d42af1047cd4e6"
+    }, {
+      "name" : "17076-MainThread",
+      "children" : [ {
+        "name" : "case004",
+        "uid" : "beaec11fdc9a8080",
+        "parentUid" : "35f71a2092707ac90ccc7ecc6bcc2ea8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636637004243,
+          "stop" : 1636637008363,
+          "duration" : 4120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "35f71a2092707ac90ccc7ecc6bcc2ea8"
+    } ],
+    "uid" : "1f315dd4e4d7ea42adf425de3a0cd0f4"
+  } ]
+}

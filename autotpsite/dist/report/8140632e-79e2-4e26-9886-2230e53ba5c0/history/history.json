@@ -1,0 +1,41 @@
+{
+  "de01b09b3869633fbd1655e6b0c647c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6330b682ed62f47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636806377032,
+        "stop" : 1636806381059,
+        "duration" : 4027
+      }
+    } ]
+  },
+  "79c6dcc2a56b4ff42447921142267cf9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7db1aa92997f7308",
+      "status" : "broken",
+      "statusDetails" : "httprunner.exceptions.ParamsError: base url missed!",
+      "time" : {
+        "start" : 1636806376978,
+        "stop" : 1636806377001,
+        "duration" : 23
+      }
+    } ]
+  }
+}

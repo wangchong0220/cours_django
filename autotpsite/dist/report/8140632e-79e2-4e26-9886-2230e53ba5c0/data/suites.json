@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "测开3期_用例4_test",
+      "children" : [ {
+        "name" : "TestCase测开3期用例4",
+        "children" : [ {
+          "name" : "用例4",
+          "uid" : "7db1aa92997f7308",
+          "parentUid" : "e2d7ad3de6b750a3e2264d60ca087ace",
+          "status" : "broken",
+          "time" : {
+            "start" : 1636806376978,
+            "stop" : 1636806377001,
+            "duration" : 23
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e2d7ad3de6b750a3e2264d60ca087ace"
+      } ],
+      "uid" : "46707ef4723c0f27ef44249396d83e95"
+    }, {
+      "name" : "测开3期_case001_test",
+      "children" : [ {
+        "name" : "TestCase测开3期Case001",
+        "children" : [ {
+          "name" : "case004",
+          "uid" : "c6330b682ed62f47",
+          "parentUid" : "50324c3e4954c1bc43a9a893eb53b080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636806377032,
+            "stop" : 1636806381059,
+            "duration" : 4027
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "50324c3e4954c1bc43a9a893eb53b080"
+      } ],
+      "uid" : "5af835dfef6b19247a9bbb97a2e473da"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!--
+* CoreUI - Free Bootstrap Admin Template
+* @version v3.4.0
+* @link https://coreui.io
+* Copyright (c) 2020 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://coreui.io/license)
+-->
+<html lang="cn">
+  <head>
+    <base href="./">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+    <title>SQTP自动化管理平台</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Main styles for this application-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+  </head>
+  <body class="c-app">
+    <div class="c-sidebar  c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
+      <div class="c-sidebar-brand d-lg-down-none">
+        <svg class="c-sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
+          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-apple"></use>
+        </svg>
+      </div>
+      <ul class="c-sidebar-nav">
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="index.html">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
+            </svg> 仪表盘<span class="badge badge-info">NEW</span></a></li>
+        <li class="c-sidebar-nav-item c-sidebar-nav-dropdown"><a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-home"></use>
+            </svg> Auto Test</a>
+          <ul class="c-sidebar-nav-dropdown-items">
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="testcase.html">
+              <span class="c-sidebar-nav-icon"></span> 测试用例</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="webinterface.html">
+              <span class="c-sidebar-nav-icon"></span> web接口</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="testplan.html">
+              <span class="c-sidebar-nav-icon"></span> 测试计划</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="testreport.html">
+              <span class="c-sidebar-nav-icon"></span> 测试报告</a></li>
+          </ul>
+        </li>
+        <li class="c-sidebar-nav-item c-sidebar-nav-dropdown"><a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-settings"></use>
+            </svg> 系统设置</a>
+          <ul class="c-sidebar-nav-dropdown-items">
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="projects.html">
+              <svg class="c-icon mr-2">
+                <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-gradle"></use>
+              </svg> 项目管理</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="environments.html">
+              <svg class="c-icon mr-2">
+                <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-grafana"></use>
+              </svg> 环境管理</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="users.html">
+              <svg class="c-icon mr-2">
+                <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-redhat"></use>
+              </svg> 用户管理</a></li>
+          </ul>
+        </li>
+          <li class="c-sidebar-nav-item c-sidebar-nav-dropdown"><a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
+              <svg class="c-sidebar-nav-icon">
+                  <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-settings"></use>
+              </svg> JIRA</a>
+              <ul class="c-sidebar-nav-dropdown-items">
+                  <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="jira_project.html">
+                      <svg class="c-icon mr-2">
+                          <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-gradle"></use>
+                      </svg> 项目管理</a></li>
+                  <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="jira_case.html">
+                      <svg class="c-icon mr-2">
+                          <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-grafana"></use>
+                      </svg> 用例管理</a></li>
+                  <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="jira_bug.html">
+                      <svg class="c-icon mr-2">
+                          <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-redhat"></use>
+                      </svg> 缺陷管理</a></li>
+              </ul>
+          </li>
+        <li class="c-sidebar-nav-divider"></li>
+
+      </ul>
+      <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button>
+    </div>
+    <div class="c-wrapper c-fixed-components">
+      <header class="c-header c-header-light c-header-fixed c-header-with-subheader">
+        <button class="c-header-toggler c-class-toggler d-lg-none mfe-auto" type="button" data-target="#sidebar" data-class="c-sidebar-show">
+          <svg class="c-icon c-icon-lg">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-menu"></use>
+          </svg>
+        </button><a class="c-header-brand d-lg-none" href="#">
+          <svg width="118" height="46" alt="CoreUI Logo">
+            <use xlink:href="assets/brand/coreui.svg#full"></use>
+          </svg></a>
+        <button class="c-header-toggler c-class-toggler mfs-3 d-md-down-none" type="button" data-target="#sidebar" data-class="c-sidebar-lg-show" responsive="true">
+          <svg class="c-icon c-icon-lg">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-menu"></use>
+          </svg>
+        </button>
+        <ul class="c-header-nav d-md-down-none w-50">
+          <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="index.html">主页</a></li>
+
+        </ul>
+        <ul class="c-header-nav ml-auto mr-4">
+          <li class="c-header-nav-item d-md-down-none mx-2"><a class="c-header-nav-link" href="#">
+              <svg class="c-icon">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
+              </svg></a></li>
+          <li class="c-header-nav-item d-md-down-none mx-2"><a class="c-header-nav-link" href="#">
+              <svg class="c-icon">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-list-rich"></use>
+              </svg></a></li>
+          <li class="c-header-nav-item d-md-down-none mx-2"><a class="c-header-nav-link" href="#">
+              <svg class="c-icon">
+                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
+              </svg></a></li>
+          <li class="c-header-nav-item dropdown"><a class="c-header-nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/5.jpg" alt="user@email.com"></div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right pt-0">
+              <div class="dropdown-header bg-light py-2"><strong>Account</strong></div><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
+                </svg> Messages<span class="badge badge-success ml-auto">30</span></a><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-task"></use>
+                </svg> Tasks<span class="badge badge-danger ml-auto">10</span></a>
+              <div class="dropdown-header bg-light py-2"><strong>Settings</strong></div><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-settings"></use>
+                </svg> Settings</a><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-file"></use>
+                </svg> Projects<span class="badge badge-primary ml-auto">42</span></a>
+              <div class="dropdown-divider"></div><a class="dropdown-item"  >
+                <svg class="c-icon mr-2">
+                  <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
+                </svg> Logout</a>
+            </div>
+          </li>
+        </ul>
+        <div class="c-subheader px-3">
+          <!-- 面包栏菜单-->
+          <ol class="breadcrumb border-0 m-0">
+            <li class="breadcrumb-item">主页</li>
+            <li class="breadcrumb-item"><a href="projects.html">项目列表</a></li>
+            <li class="breadcrumb-item active">项目详情</li>
+          </ol>
+        </div>
+      </header>
+      <div class="c-body">
+        <main class="c-main">
+          <div class="card">
+            <div class="card-header"><strong>项目详情</strong></div>
+            <div class="card-body">
+              <form class="form-horizontal">
+                <div class="form-group row">
+                  <label class="col-md-2 col-form-label" for="text-input">项目名称</label>
+                  <div class="col-md-9">
+                    <input class="form-control" type="text" name="name" placeholder="项目名称" required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-md-2 col-form-label" for="text-input">项目描述</label>
+                  <div class="col-md-9">
+                    <input class="form-control" type="text" name="desc" placeholder="项目描述" required>
+                  </div>
+                </div>
+                  <div class="form-group row">
+                      <label class="col-md-2 col-form-label" for="text-input">项目版本</label>
+                      <div class="col-md-9">
+                          <input class="form-control" type="text" name="version" placeholder="项目版本" required>
+                      </div>
+                  </div>
+                  <div class="form-group row">
+                      <label class="col-md-2 col-form-label" for="text-input">项目状态</label>
+                      <div class="col-md-9">
+                          <label>
+                              <select class="form-control"  name="status"  >
+                                  <option selected>选择状态</option>
+                                  <option value="developing">开发中</option>
+                                  <option value="operating">维护中</option>
+                                  <option value="stable">稳定运行</option>
+                              </select>
+                          </label>
+                      </div>
+                  </div>
+                <div class="form-group row">
+                  <label class="col-md-2 col-form-label" for="text-input">管理员</label>
+                  <div class="col-md-9">
+                      <p class="form-control-static" title="admin">admin</p>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-md-2 col-form-label" for="text-input">项目成员</label>
+                    <div class="col-md-9 col-form-label" id="members">
+                        <p class="form-control-static" title="members">members</p>
+                    </div>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer">
+              <strong>模块</strong>
+              <button class="btn btn-warning btn-sm">添加模块</button>
+              <table class="table table-responsive table-borderless">
+                <thead>
+                <tr>
+                  <th id="no">序号</th>
+                  <th id="c_type">模块名称</th>
+                  <th id="desc">模块描述</th>
+                  <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td><h5>1<span title=""></span></h5></td>
+                  <td><input class="form-control" type="text" name="module_name" placeholder="模块名称"></td>
+
+                  <td><input class="form-control" type="text" name="module_desc" placeholder="模块描述"></td>
+                  <td>
+                      <button class="btn btn-pill btn-sm btn-outline-info" onclick="save_module(this,getUrlParam('pro_id'))"> 保存</button>
+                      <button class="btn btn-pill btn-sm btn-outline-danger" onclick="delete_module(this)" > 删除</button>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+
+              <button class="btn btn-primary" type="submit" > 修改</button>
+              <button class="btn btn-danger" type="reset" > 重置</button>
+              <a class="btn btn-success" type="button" href="projects.html"> 返回</a>
+            </div>
+          </div>
+        </main>
+<!--        页脚 -->
+        <footer class="c-footer">
+          <div><a href="http://songqinnet.com/" target="_blank">SQ-Autotest</a> © 2021 creativeLabs.</div>
+          <div class="ml-auto">Contract me&nbsp;<a href="http://songqinnet.com/" target="_blank">SQ-Autotest</a></div>
+        </footer>
+      </div>
+    </div>
+    <!-- CoreUI and necessary plugins-->
+    <script src="vendors/@coreui/coreui/js/coreui.bundle.min.js"></script>
+    <!--[if IE]><!-->
+    <script src="vendors/@coreui/icons/js/svgxuse.min.js"></script>
+    <!--<![endif]-->
+    <script src="scripts/libs/jquery.min.js"></script>
+    <script src="scripts/common.js"></script>
+    <script src="scripts/testproject.js"></script>
+    <script>
+      //测试用例
+      $(document).ready(
+        //载入project详情
+        project_view(getUrlParam('pro_id')),
+        //添加一行
+        new_line(),
+      )
+    </script>
+  </body>
+</html>

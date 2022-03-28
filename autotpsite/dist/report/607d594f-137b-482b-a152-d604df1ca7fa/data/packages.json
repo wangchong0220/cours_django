@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.T123123_测试3_test",
+    "children" : [ {
+      "name" : "66666",
+      "uid" : "8e39a41988db183",
+      "parentUid" : "b0be3535bd8a7e7dba51931887c01df6",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636806628811,
+        "stop" : 1636806628817,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.T123123_测试3_test"
+  } ]
+}

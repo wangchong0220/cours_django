@@ -1,0 +1,24 @@
+2021-11-13 20:33:24.677 | INFO     | httprunner.runner:test_start:450 - Start to run testcase: PlanCase2, TestCase ID: f38bd6c6-2b44-468e-bf60-43b3d49955fe
+2021-11-13 20:33:24.678 | INFO     | httprunner.runner:__run_step:292 - run step begin: step_name >>>>>>
+2021-11-13 20:33:28.686 | WARNING  | httprunner.client:request:188 - failed to get client address info: 'NoneType' object has no attribute 'connection'
+2021-11-13 20:33:28.686 | WARNING  | httprunner.client:request:196 - failed to get server address info: 'NoneType' object has no attribute 'connection'
+2021-11-13 20:33:28.687 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : http://localhost/demo/path
+headers  : {}
+cookies  : {}
+body     : None
+
+2021-11-13 20:33:28.692 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 0
+headers  : {}
+cookies  : {}
+encoding : None
+content_type : 
+body     : 
+
+2021-11-13 20:33:28.692 | ERROR    | httprunner.client:request:215 - HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /demo/path (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002ECD5431520>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2021-11-13 20:33:28.692 | INFO     | httprunner.runner:__run_step:304 - run step end: step_name <<<<<<
+

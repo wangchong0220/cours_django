@@ -1,0 +1,100 @@
+{
+  "uid" : "63f3adf1ec146602",
+  "name" : "用例4",
+  "fullName" : "testcase.测开3期_用例4_test.TestCase测开3期用例4#test_start",
+  "historyId" : "79c6dcc2a56b4ff42447921142267cf9",
+  "time" : {
+    "start" : 1636806666436,
+    "stop" : 1636806666441,
+    "duration" : 5
+  },
+  "description" : "TestCase ID: 1eb3bf4e-35ad-40c9-a4af-d4a34ce176af",
+  "descriptionHtml" : "<p>TestCase ID: 1eb3bf4e-35ad-40c9-a4af-d4a34ce176af</p>\n",
+  "status" : "broken",
+  "statusMessage" : "httprunner.exceptions.ParamsError: base url missed!",
+  "statusTrace" : "..\\djenv\\lib\\site-packages\\httprunner\\runner.py:455: in test_start\n    return self.run_testcase(\n..\\djenv\\lib\\site-packages\\httprunner\\runner.py:357: in run_testcase\n    extract_mapping = self.__run_step(step)\n..\\djenv\\lib\\site-packages\\httprunner\\runner.py:295: in __run_step\n    step_data = self.__run_step_request(step)\n..\\djenv\\lib\\site-packages\\httprunner\\runner.py:161: in __run_step_request\n    url = build_url(self.__config.base_url, url_path)\n..\\djenv\\lib\\site-packages\\httprunner\\parser.py:46: in build_url\n    raise exceptions.ParamsError(\"base url missed!\")\nE   httprunner.exceptions.ParamsError: base url missed!",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 1eb3bf4e-35ad-40c9-a4af-d4a34ce176af",
+    "status" : "broken",
+    "statusMessage" : "httprunner.exceptions.ParamsError: base url missed!",
+    "statusTrace" : "..\\djenv\\lib\\site-packages\\httprunner\\runner.py:455: in test_start\n    return self.run_testcase(\n..\\djenv\\lib\\site-packages\\httprunner\\runner.py:357: in run_testcase\n    extract_mapping = self.__run_step(step)\n..\\djenv\\lib\\site-packages\\httprunner\\runner.py:295: in __run_step\n    step_data = self.__run_step_request(step)\n..\\djenv\\lib\\site-packages\\httprunner\\runner.py:161: in __run_step_request\n    url = build_url(self.__config.base_url, url_path)\n..\\djenv\\lib\\site-packages\\httprunner\\parser.py:46: in build_url\n    raise exceptions.ParamsError(\"base url missed!\")\nE   httprunner.exceptions.ParamsError: base url missed!",
+    "steps" : [ {
+      "name" : "step: step_name",
+      "time" : {
+        "start" : 1636806666439,
+        "stop" : 1636806666440,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "httprunner.exceptions.ParamsError: base url missed!\n",
+      "statusTrace" : "  File \"D:\\Course\\course_django\\djenv\\lib\\site-packages\\httprunner\\runner.py\", line 357, in run_testcase\n    extract_mapping = self.__run_step(step)\n  File \"D:\\Course\\course_django\\djenv\\lib\\site-packages\\httprunner\\runner.py\", line 295, in __run_step\n    step_data = self.__run_step_request(step)\n  File \"D:\\Course\\course_django\\djenv\\lib\\site-packages\\httprunner\\runner.py\", line 161, in __run_step_request\n    url = build_url(self.__config.base_url, url_path)\n  File \"D:\\Course\\course_django\\djenv\\lib\\site-packages\\httprunner\\parser.py\", line 46, in build_url\n    raise exceptions.ParamsError(\"base url missed!\")\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b3824127a516bdcb",
+      "name" : "stderr",
+      "source" : "b3824127a516bdcb.txt",
+      "type" : "text/plain",
+      "size" : 598
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "测开3期_用例4_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase测开3期用例4"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2JDKMUS8"
+  }, {
+    "name" : "thread",
+    "value" : "18516-Thread-1"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.测开3期_用例4_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "63f3adf1ec146602.json",
+  "parameterValues" : [ ]
+}

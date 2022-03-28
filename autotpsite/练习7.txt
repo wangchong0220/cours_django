@@ -1,0 +1,4 @@
+修改模型Config,Request,Step,相关字段的选项
+修改序列化器Case和Step字段展示
+完成Case部分的更新功能：1更新common,2更新步骤
+练习用户与数据关联案例

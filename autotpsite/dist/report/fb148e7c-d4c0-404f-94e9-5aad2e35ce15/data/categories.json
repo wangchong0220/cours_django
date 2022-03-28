@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "httprunner.exceptions.ParamsError: base url missed!",
+      "children" : [ {
+        "name" : "用例4",
+        "uid" : "63f3adf1ec146602",
+        "parentUid" : "368049cd24d13a689ce603fb4d7b7c74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636806666436,
+          "stop" : 1636806666441,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "368049cd24d13a689ce603fb4d7b7c74"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

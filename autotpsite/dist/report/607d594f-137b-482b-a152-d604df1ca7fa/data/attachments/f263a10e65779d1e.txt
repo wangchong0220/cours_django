@@ -1,0 +1,3 @@
+[32m2021-11-13 20:30:28.813[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m450[0m - [1mStart to run testcase: 66666, TestCase ID: 36ff431d-f77a-4d90-81f7-074a2516ee2c[0m
+[32m2021-11-13 20:30:28.814[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: step_222 >>>>>>[0m
+[32m2021-11-13 20:30:28.815[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m460[0m - [1mgenerate testcase log: D:\Course\course_django\autotpsite\logs\36ff431d-f77a-4d90-81f7-074a2516ee2c.run.log[0m

@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "测开3期_case001_test",
+      "children" : [ {
+        "name" : "TestCase测开3期Case001",
+        "children" : [ {
+          "name" : "case004",
+          "uid" : "beaec11fdc9a8080",
+          "parentUid" : "50324c3e4954c1bc43a9a893eb53b080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636637004243,
+            "stop" : 1636637008363,
+            "duration" : 4120
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "50324c3e4954c1bc43a9a893eb53b080"
+      } ],
+      "uid" : "5af835dfef6b19247a9bbb97a2e473da"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

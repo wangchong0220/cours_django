@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.测开3期_PlanCase2_test",
+    "children" : [ {
+      "name" : "PlanCase2",
+      "uid" : "26c0f658bd9418e4",
+      "parentUid" : "fc606710fff2174ce1088687f8b03303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636806804675,
+        "stop" : 1636806808694,
+        "duration" : 4019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.测开3期_PlanCase2_test"
+  } ]
+}

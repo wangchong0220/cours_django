@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Nov 13 20:26:17 CST 2021","Sat Nov 13 20:26:21 CST 2021","4027","testcase","测开3期_case001_test","TestCase测开3期Case001","","","case004","TestCase ID: 471e4021-8aa1-4e31-a28d-3b497cc2a276"
+"broken","Sat Nov 13 20:26:16 CST 2021","Sat Nov 13 20:26:17 CST 2021","23","testcase","测开3期_用例4_test","TestCase测开3期用例4","","","用例4","TestCase ID: 37f18b97-55ff-4b14-bd7b-31f687e7ec5c"
